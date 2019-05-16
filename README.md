@@ -1,4 +1,4 @@
-#Slowwme
+# Slowwme
 
 Created a custom component package named slowwme. This is just to add delay in milliseconds
 
@@ -15,11 +15,11 @@ Here is sample BotML code to call this custom component
       next: "askName"
 
 # Demo skill
-Please import AddDelayDemo(1.0) to test the same
+Please import AddDelayDemo(1.0) to test the component
       
 
 
-# Custom Component Package
+# About Custom Component Package
 
 This project is in format of a Component Package. Component Packages are the
 recommended way to organize Bots Custom Components code and allow the custom
