@@ -1,3 +1,24 @@
+#Slowwme
+
+Created a custom component package named slowwme. This is just to add delay in milliseconds
+
+# How to use slowwme
+
+Component name is slowwme, it expects an integer called sleepduration in milliseconds
+Here is sample BotML code to call this custom component
+  #Call the custom component
+  converter:
+    component: "slowwme"
+    properties:
+      sleepduration: 5000
+    transitions:
+      next: "askName"
+
+# Demo skill
+Please import AddDelayDemo(1.0) to test the same
+      
+
+
 # Custom Component Package
 
 This project is in format of a Component Package. Component Packages are the
