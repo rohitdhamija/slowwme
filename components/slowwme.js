@@ -16,6 +16,7 @@ module.exports = {
     var diff = end - start;  
     // reply
     conversation.logger().info(`I slept for ~${diff} milliseconds`);
+    conversation.reply(`I slept for ~${diff} milliseconds`);  
     conversation.transition();
     conversation.keepTurn(true);  
     done();
